@@ -10,7 +10,7 @@ def sortear(* n):
 
 def somarPar(n):
     par = list()
-    contPar = 0
+    contPar =  0
     for num in n:
         if num % 2 == 0:
             par.append(num)
