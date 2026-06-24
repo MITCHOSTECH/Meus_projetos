@@ -22,6 +22,7 @@ def contador(ini, fim, pas):
 print('a) De 1 até 10, de 1 em 11')
 contador(1,11, 1)
 print()
+
 print("b) De 10 até 0, de 2 em 2 ")
 contador(10,0, -2)
 print()
