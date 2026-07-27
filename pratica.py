@@ -1,6 +1,15 @@
-def contador(ini, fim, pas):
-        print()
-print('a) De 1 até 10, de 1 em 11')
-contador(1,11, 1)
+def fatorial(n, show=True):
+        f = 1
+        for c in range(n, 0, -1):
 
-contador(10,0, -2)
+                if show:
+                        print(c, end=" ")
+                        if c > 1:
+                                print(' x', end=" ")
+                        else:
+                                print('=',end=" ")
+                f *= c
+        return f
+
+n = int(input(f'Digite um número:  '))
+print(fatorial(n, show=True))
