@@ -1,6 +1,3 @@
-from unittest import result
-
-
 def aumentar(preco, taxa):
     res = preco + (preco * taxa / 100)
     return res
@@ -20,3 +17,7 @@ def dobro(preco):
 def metade(preco):
     res = preco / 2
     return res
+
+
+def moeda(preco,tipo="€"):
+    return f"{preco:.2f}{tipo}".replace('.',',')
