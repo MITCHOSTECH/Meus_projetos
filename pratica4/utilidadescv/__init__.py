@@ -1,0 +1,1 @@
+from pratica4.utilidadescv import dado, moeda
